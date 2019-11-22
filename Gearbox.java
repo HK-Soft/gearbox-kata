@@ -7,9 +7,7 @@ public class Gearbox {
 
     public void doit(int i) {
         e = i;
-        if (s < 0) {
-            // do nothing!
-        } else {
+        if (s >= 0) {
             if (s > 0) {
                 if (i > 2000) {
                     s++;
