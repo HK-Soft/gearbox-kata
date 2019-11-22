@@ -11,12 +11,10 @@ public class Gearbox {
             s++;
             return;
         }
-        if (s > 0) {
-            if (i > 2000) {
-                s++;
-            } else if (i < 500) {
-                s--;
-            }
+        if (i > 2000) {
+            s++;
+        } else if (i < 500) {
+            s--;
         }
         if (s > 6) {
             s--;
